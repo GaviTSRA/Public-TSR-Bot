@@ -1,0 +1,16 @@
+{
+  "name": "tsr-bot-for-online-use",
+  "version": "1.0.0",
+  "description": "The TSR Bot port for other Discord servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "GaviTSRA",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
