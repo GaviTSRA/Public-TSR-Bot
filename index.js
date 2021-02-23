@@ -37,6 +37,10 @@ if (process.env.BOT == "ON") //Check if the bot should turn on
                     case 'ping':
                         bot.commands.get('ping').execute(message, args); //!ping function
                     break;
+		
+		    case 'pong':
+                        bot.commands.get('pong').execute(message, args); //!pong function
+                    break;
 
 		            case 'oh':
                         bot.commands.get('oh').execute(message, args); //!oh function
